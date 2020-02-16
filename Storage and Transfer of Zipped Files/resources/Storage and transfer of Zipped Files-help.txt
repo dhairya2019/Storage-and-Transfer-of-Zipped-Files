@@ -1,0 +1,19 @@
+File compression is used to reduce the file size of one or more files. When a file or a group of files is compressed, the resulting "archive" often takes up 50% to 90% less disk space than the original file(s).
+The zlib, gzip and bz2 modules provide essential data and file compression tools. Data files are often built for speedy processing, and may contain characters which are meaningless spacing.
+For example, a .tar file is often compressed using GZip to create a .tar.gz file, sometimes called a .tgz file. In the case of the ZIP file archive, the compression algorithms are already part of the zipfile module.
+ZIP archives use a combination of Huffman coding and LZ77 to give fast compression and decompression times and reasonably good compression ratios.
+LZ77 is pretty much a generalized form of RLE and it will often yield much better results.
+Huffman allows the most repeating bytes to represent the least number of bits. Imagine a text file that looked like this:
+aaaaaaaabbbbbcccdd
+
+
+
+A file compression utility like WinZip can be used to compress a variety of file formats and is popular as it has a simple interface and is not difficult to use. When using such a software program files can be compressed and decompressed. Files that are compressed before being sent by email have to be decompressed once they are received by the recipient often by using the same file compression utility that was used to compress them. Once decompressed the files in the compressed folder will revert to their original size and no data will be lost.
+
+python(anaconda)
+tkinter for ui
+
+
+if a user wants to 
+
+Tech stack is the combination of programming languages, tools and frameworks that the developers use to create web and mobile applications
